@@ -20,7 +20,7 @@ gem 'autoprefixer-rails'
 
 gem 'awesome_print'
 
-group :production, :acceptance do
+group :production do
   gem 'rack-timeout'
   gem 'heroku_rails_deflate'
 end
